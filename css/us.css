@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+    background-color: #cd5c5c;
+}
+.team-section{
+  background: #f1f1f1;
+  text-align: center;
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+.team-section h1{
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+.pe{
+  float: center;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 60px 0;
+  transition: 0.4s;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pe:hover{
+  background: #ddd;
+}
+.pe img{
+  width: 150px;
+  height: 150px;
+}
+.p-name{
+  margin: 16px 0;
+  text-transform: uppercase;
+  font-family: 'Nunito';
+}
+.p-stu{
+    margin: 14px 0;
+    text-transform: uppercase;
+    font-family: "Sans-serif";
+  }
+.p-des{
+  font-style: italic;
+  color: #3498db;
+
+}
+@media screen and (max-width:600px) {
+  .pe{
+    width: 100%;
+  }
+}
+
+
+a:link, a:visited {
+  color: #B22222;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "montserrat";
+  font-weight:1000;
+  font-size:100%
+}
+
+
+
+
